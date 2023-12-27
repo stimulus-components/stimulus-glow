@@ -21,3 +21,9 @@ Do not hesitate to contribute to the project by adapting or adding features ! Bu
 ## 📝 License
 
 This project is released under the [MIT](http://opensource.org/licenses/MIT) license.
+
+## 👀 Attribution
+
+Inspired by:
+- This repo: [React-glow](https://github.com/codaworks/react-glow)
+- This Codepen: https://codepen.io/inescodes/pen/PoxMyvX
