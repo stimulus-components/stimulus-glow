@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2024-01-03
+
+### Chore
+
+- Renaming `card` target to `child`.
+- Renaming `overlay` class to `glow-overlay`.
+- Removing the `glow` attribute on the overlay.
+
 ## [0.2.0] - 2023-12-27
 
 ### Added

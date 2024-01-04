@@ -8,7 +8,7 @@ module.exports = {
 
   plugins: [
     plugin(({ addVariant }) => {
-      addVariant("glow", ".glow-capture [glow] &");
+      addVariant("glow", ".glow-capture .glow-overlay &");
     },
     {
       theme: {

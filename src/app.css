@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.overlay {
+.glow-overlay {
   --glow-size: 25rem;
 
   position: absolute;

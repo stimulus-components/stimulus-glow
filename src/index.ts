@@ -1,17 +1,17 @@
 import { Controller } from '@hotwired/stimulus'
 
 export default class extends Controller<HTMLElement> {
-  declare cardTarget: HTMLElement
+  declare childTarget: HTMLElement
   declare overlayTarget: HTMLElement
 
-  static targets = ['card', 'overlay']
+  static targets = ['child', 'overlay']
 
   initialize (): void {
     this.move = this.move.bind(this)
   }
 
   connect (): void {
-    this.overlayTarget.append(this.cardTarget.cloneNode(true))
+    this.overlayTarget.append(this.childTarget.cloneNode(true))
 
     document.body.addEventListener('pointermove', this.move)
   }
